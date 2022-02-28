@@ -1,5 +1,5 @@
 body {
-	background-color: #fafafa;
+	background-color: #eaeaea;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -8,11 +8,12 @@ body {
 .card {
 	width: 70%;
 	color: #323232;
-	background-color: #fafafa;
-	border: 2px #323232 solid;
+	background-color: #ffffff;
+	/* border: 2px #323232 solid; */
 	padding: 10px;
 	border-radius: 10px;
 	margin-bottom: 25px;
+	box-shadow: 1px 5px 25px #909090;
 }
 
 .media {
@@ -22,6 +23,6 @@ body {
 
 @media only screen and (max-width: 768px) {
 	.card {
-		width: 100%;
+		width: 90%;
 	}
 }
